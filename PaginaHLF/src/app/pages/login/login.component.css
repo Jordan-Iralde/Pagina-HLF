@@ -1,0 +1,12 @@
+.cuadrado {
+    background-color: #24599F;
+    border-radius: 0 0 80% 0 ;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra interna */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0;
+    left: 0;
+}
