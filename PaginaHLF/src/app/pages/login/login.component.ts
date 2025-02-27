@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+loginForm: any;
+  onSubmit() {
+    // Add your form submission logic here
+    console.log('Form submitted');
+  }
 }

@@ -1,6 +1,31 @@
+/* Importa la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+h2, p {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
 .cuadrado {
     background-color: #24599F;
-    border-radius: 0 0 80% 0 ;
+    border-radius: 0 0 80% 0;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -9,4 +34,77 @@
     position: absolute; /* Posicionamiento absoluto */
     top: 0;
     left: 0;
+}
+
+p h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.cuadrado2 {
+    background-color: #022154;
+    border-radius: 80% 0 0 0;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra interna */
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 0;
+    right: 0;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #1673EA;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome-box {
+    background: #002F75;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+
+.welcome-box p {
+    margin: 10px 0;
+}
+
+.welcome-box button {
+    background: #1673EA;
+    width: 100%;
 }
